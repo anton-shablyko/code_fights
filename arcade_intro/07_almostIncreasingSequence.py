@@ -17,8 +17,6 @@ def is_increasing(seq):
             return True
     return False
 
-
-
 print('\nThese should be True.')
 print(almostIncreasingSequence([]))
 print(almostIncreasingSequence([1]))
