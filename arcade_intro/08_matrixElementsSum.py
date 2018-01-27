@@ -1,17 +1,14 @@
 def matrixElementsSum(matrix):
-    n = [i for i in matrix]
-    for i in matrix:
-        for j, z in enumerate(i):
-            if z == 0:
-                nm = [i[j] = 0 for i in matrix]
-                print(nm)
-            print(j, z)
+    result = 0
+    for i in range(len(matrix[0])):
+        for j in range(len(matrix)):
+            if matrix[j][i] == 0:
+                break
+            result += matrix[j][i]
+    return result
 
-    print(n)
-
-
-matrix = [[0, 1, 1, 2],
-          [0, 5, 0, 0],
-          [2, 0, 3, 3]]
-
-matrixElementsSum(matrix)
+# matrix = [[0, 1, 1, 2],
+#           [0, 5, 0, 0],
+#           [2, 0, 3, 3]]
+#
+# print(matrixElementsSum(matrix))
