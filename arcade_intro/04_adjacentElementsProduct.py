@@ -10,7 +10,7 @@
 #     print(running_max)
 #     return running_max
 
-# One liner? ))
+# One liner ))
 def adjacentElementsProduct(inputArray):
     x = [inputArray[i]*inputArray[i+1] for i in inputArray]
     return max(x)
