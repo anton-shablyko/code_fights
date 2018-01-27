@@ -3,4 +3,4 @@ def makeArrayConsecutive2(statues):
     return len(optimal_range) - len(statues)
 
 
-makeArrayConsecutive2([6, 2, 3, 8])
+print(makeArrayConsecutive2([6, 2, 3, 8]))
