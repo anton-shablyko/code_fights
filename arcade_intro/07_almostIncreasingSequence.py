@@ -30,6 +30,8 @@ print(almostIncreasingSequence([1, 2, 3, 4, 3, 6]))
 print(almostIncreasingSequence([1, 2, 3, 4, 99, 5, 6]))
 print(almostIncreasingSequence([1, 2, 2, 3]))
 
+
+
 print('\nThese should be False.')
 print(almostIncreasingSequence([1, 3, 2, 1]))
 print(almostIncreasingSequence([3, 2, 1]))
