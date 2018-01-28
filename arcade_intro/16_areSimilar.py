@@ -13,7 +13,6 @@ def areSimilar(a, b):
     return True if new_r in (0, 2) else False
 
 
-
 a = [2, 2, 1]
 b = [2, 1, 1]
 print(areSimilar(a, b))
